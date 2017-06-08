@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login | Sign Up</title>
+	<!-- Responsive Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Meta Info -->
+	<meta charset="utf-8" name="copyright" content="">
+	<meta charset="utf-8" name="keywords" content="">
+	<meta charset="utf-8" name="description" content="">
+	<meta charset="utf-8" name="robots" content="index,follow">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+
+	<!-- Layout CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" >
+	
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	
+</head>
+<body>
+<!-- Wrapper Start -->
+	<div class="wrapper">
+		<div class="container in-wrap">
+			<div class="row in-wrap">
+				<div class="login-table col-lg-6 col-sm-6 col-xs-6 col-lg-offset-3 col-sm-offset-3 col-xs-offset-3">
+					<div class="login-cell">
+		                <div class="row">
+		                	<div class="col-lg-4 col-sm-4 col-xs-4 logo-left">
+		                		<div class="row">
+		                			<div class="login-header">
+							    <div class="login-icon">
+							        <img src="images/logo.png" alt="Facebook Login">
+							    </div>
+							    <div class="login-content ">
+							        <p>
+							        	<span>SIGN IN Or LOGIN<br>Using Social Media to get quick access</span>
+							        </p>
+							    </div>
+							    <div class="clearfix"></div>
+							</div>
+		                		</div>
+		                	</div>
+		                	<div class="col-lg-8 col-sm-8 col-xs-8 form-right">
+		                		<div class="col-md-12 col-sm-12 col-xs-12 form_login">
+		                    <ul class="login-nav">
+						        <li><a href="javascript:void(0)" id="login_trigger">Already a member</a> </li>
+						        <li><a href="javascript:void(0)" id="signup_trigger">New Member</a></li>
+						    </ul>
+		               		<div class="clear"></div>
+		                </div>				    
+							<div class="clear"></div>
+						<div class="row login-panel" id="login">							
+								<form>
+									<div class="form-group">
+										<input type="text" name="" class="form-control" placeholder="Username">
+									</div>
+									<div class="form-group">
+										<input type="password" name="" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group-row">
+									    <div class="remember-me pull-left">
+		                                    <label>
+		                                        <input type="checkbox" name="checkbox">
+		                                        <div class="checkbox"></div>
+		                                        Remember me
+		                                    </label>
+		                                </div>
+		                                <div class="pull-right">
+		                                    <a href="forgotpassword.html">Forgot Password ?</a>
+		                                </div>
+		                                <div class="clear"></div>
+									</div>
+									<div class="clear"></div>
+									<div class="form-group-row">
+                                    	<button class="btn btn-default"  onclick="newDoc()">
+		                                    Login
+		                              </button>
+									</div>
+								</form>
+						</div>
+
+						<div class="row signup-panel" id="signup">
+								<form>
+									<div class="form-group">
+									    <div class="row">
+									        <div class="col-lg-6 col-sm-6 col-xs-12 input-gap">
+                                                <input type="text" name="" class="form-control" placeholder="First Name">
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-xs-12">
+                                                <input type="text" name="" class="form-control" placeholder="Last Name">
+                                            </div>
+									    </div>
+									</div>
+									<div class="form-group">
+										<input type="email" name="" class="form-control" placeholder="Your E-mail" required>
+									</div>
+									<div class="form-group">
+										<input type="password" name="" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group">
+									    <div class="row">
+									        <div class="col-lg-6 col-sm-6 col-xs-12 input-gap">
+										<select class="form-control">
+										    <option>Select Gender</option>
+										    <option>Male</option>
+										    <option>Female</option>
+										</select>
+									</div>
+									<div class="col-lg-6 col-sm-6 col-xs-12 ">
+										<input type="text" name="" class="form-control" placeholder="Date Of Birth">
+									</div>
+									    </div>
+									</div>
+									<div class="form-group">
+									    <div class="row">
+									        <div class="col-lg-6 col-sm-6 col-xs-12 input-gap">
+                                                <select class="form-control">
+												    <option>Select Country</option>
+												    <option>India</option>
+												    <option>USA</option>
+												</select>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-xs-12">
+                                               <select class="form-control">
+												    <option>Select State</option>
+												    <option>Hyderabad</option>
+												    <option>Andhra Pradesh</option>
+												</select>
+                                            </div>
+									    </div>
+									</div>
+									<div class="form-group-row text-right">
+										<button class="btn btn-default" value="">
+										Signup
+									</button>
+									</div>
+								</form>
+						</div>
+		                	</div>
+		                </div>
+					</div>
+				</div>	
+			</div>
+				
+		</div>
+	</div>
+<!-- Wrapper End -->
+
+<!-- Jquery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Layout Elements -->	
+<script src="js/layout.js"></script>
+</body>
+</html>
